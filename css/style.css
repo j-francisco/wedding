@@ -2361,10 +2361,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 }
 
 .wedding{
-	background:url(../images/wedding-1.jpg) no-repeat top center;
+	background:url(../images/jeff-jenna-main.JPG) no-repeat 0px -130px;
 	background-size:cover;
 	text-align:center;
-	padding:170px 0px 0px 0px;
+	padding:100px 0px 0px 0px;
 	height:100%;
 }
 

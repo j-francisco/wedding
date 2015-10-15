@@ -260,7 +260,7 @@ $( document ).ready(function() {
 /*------------------------------ Count Down ----------------------*/
 
 setInterval(function() {
-    var timespan = countdown(new Date("05/24/2015"), new Date());
+    var timespan = countdown(new Date("05/21/2016"), new Date());
     var div = document.getElementById('time');
     div.innerHTML = "</div>" + "<div><span>Months</span>" + timespan.months + "</div>" + "<div><span>Days</span>" + timespan.days + "</div>" + "<div><span>Hours</span>" + timespan.hours + "</div>" + "<div><span>Minutes</span>" + timespan.minutes + "</div>" + "<div><span>Seconds</span>" + timespan.seconds + "</div>"
 }, 1000);

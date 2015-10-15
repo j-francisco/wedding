@@ -4,7 +4,7 @@ heroku-static-site
 My wedding website, based off heroku-static-site so I can run it on heroku for free.
 
 
-Usage
+Usage	
 -----
 
 Run the app locally:
