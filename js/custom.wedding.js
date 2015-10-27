@@ -207,10 +207,11 @@ $( document ).ready(function() {
 	
 	/*------------------------------ Parallax Effect -----------------*/
 
-	// $('.parallax-section').each(function(){
-	// 	$(this).parallax("50%", 0.5);
-	// });	
-	
+	if (!window.mobilecheck()) {
+		$('.parallax-section').each(function(){
+			$(this).parallax("50%", 0.5);
+		});	
+	}
 	/*------------------------------ WOW Script ----------------------*/
 
 	if (!window.mobilecheck()) {
