@@ -207,16 +207,16 @@ $( document ).ready(function() {
 	
 	/*------------------------------ Parallax Effect -----------------*/
 
-	if (!window.mobilecheck()) {
+	// if (!window.mobilecheck()) {
 		$('.parallax-section').each(function(){
 			$(this).parallax("50%", 0.5);
 		});	
-	}
+	// }
 	/*------------------------------ WOW Script ----------------------*/
 
-	if (!window.mobilecheck()) {
+	// if (!window.mobilecheck()) {
 		new WOW().init();
-	}
+	// }
 	
 	/*------------------------------ Twitter Feeds -----------------*/
 	
