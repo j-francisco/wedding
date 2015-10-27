@@ -50,12 +50,12 @@ Last update:	02 Oct 2014
 [Color codes]
 
 Background:	#ffffff (White)
-Primary Color:	#ef6a8a (Pink)
-Secondary Color:	#f04c74 (Dark Pink)
+Primary Color:	#00cfef (blue)
+Secondary Color:	#01b8d4 (Dark blue)
 Headers / Titles:	#283a44 (Dark Grey)
 Subtitles:	#687177 (Light Grey)
-a (standard):	#ef6a8a (Pink)
-a (visited):	#f04c74 (Dark Pink)
+a (standard):	#00cfef (blue)
+a (visited):	#01b8d4 (Dark blue)
 
 -------------------------------------------------------- */
 
@@ -79,18 +79,18 @@ section{
 	background:url(../images/sep.png) no-repeat center center;	
 }
 ::selection {
-	background: #ef6a8a; /* Safari */
+	background: #00cfef; /* Safari */
 	color:#FFF;
 	}
 ::-moz-selection {
-	background: #ef6a8a; /* Firefox */
+	background: #00cfef; /* Firefox */
 	color:#FFF;
 }
 h1,h2,h3,h4{
 	color:#FFF;	
 }
 h2 span{
-	color:#ef6a8a;
+	color:#00cfef;
 	font-weight:bolder;
 }
 p{
@@ -128,13 +128,13 @@ p{
 	background:#f5f4f4;	
 }
 .color{
-	background:#ef6a8a;	
+	background:#00cfef;	
 }
 .dark{
 	background:#283a44;
 }
 .pattern{
-	background: #ef6a8a url(../images/pattern.png) repeat center center;
+	background: #00cfef url(../images/pattern.png) repeat center center;
 }
 
 /* 2. Core Bootstrap modifications Start  */
@@ -167,18 +167,18 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {  
-    border-color: rgba(239, 106, 138, 0.8);
-	-webkit-border-color: rgba(239, 106, 138, 0.8);
+    border-color: rgba(0, 207, 239, 0.8);
+	-webkit-border-color: rgba(0, 207, 239, 0.8);
     box-shadow:none;
     outline: 0 none;
 }
 
 a {
-color: #ef6a8a;
+color: #00cfef;
 }
 
 a:hover, a:focus {
-color: #f04c74;
+color: #01b8d4;
 }
 
 /* 3. Preloader */
@@ -188,7 +188,7 @@ color: #f04c74;
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:#ef6a8a; /* change if the mask should have another color then white */
+	background-color:#00cfef; /* change if the mask should have another color then white */
 	z-index:9999999; /* makes sure it stays on top */
 }
 
@@ -283,7 +283,7 @@ color: #f04c74;
 }
 
 .navbar-default .nav>li>a:hover, .navbar-default .nav>li.active a, .navbar-default .nav>li.active>a:focus, .navbar-default .nav>li.active>a:hover {
-	color:#ef6a8a;
+	color:#00cfef;
 	background:#FFF;
 }
 
@@ -304,7 +304,7 @@ color: #f04c74;
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 	background:none;
-	color:#ef6a8a;	
+	color:#00cfef;	
 }
 
 /* 5. Full Width Fade Carousel */
@@ -345,7 +345,7 @@ color: #f04c74;
 }
 
 .heart{
-	color: #f04c74;
+	color: #01b8d4;
 	font-size:100px;
 }
 
@@ -403,7 +403,7 @@ color: #f04c74;
 .ui-widget-header { 
 	width: 100%; 
 	height: 5px; 
-	background-color: #ef6a8a;
+	background-color: #00cfef;
 	position:absolute;
 	z-index:100;
 }
@@ -431,7 +431,7 @@ color: #f04c74;
 }
 
 .heading i{
-	color:#ef6a8a;
+	color:#00cfef;
 	font-size:12px;	
 }
 
@@ -444,7 +444,7 @@ color: #f04c74;
 }
 
 .heading span{
-	color:#ef6a8a;
+	color:#00cfef;
 }
 
 .heading h3{
@@ -465,7 +465,7 @@ color: #f04c74;
     height: 3px;
     position: absolute;
     width: 100px;
-	background:#ef6a8a;	
+	background:#00cfef;	
 	margin:0 auto;
 	left:0px;
 	right:0px;
@@ -508,7 +508,7 @@ color: #f04c74;
 	margin-top:100px;
 	font-size: 70px;
 	margin-left: -22px;
-	color: #ef6a8a;
+	color: #00cfef;
 	z-index: 2;
 	font-family: 'Lato', sans-serif;
 		
@@ -528,8 +528,8 @@ color: #f04c74;
 }
 
 .woman .ch-item { 
-	background-image: url(../images/woman.jpg);
-	background-size: 300px 300px;
+	background-image: url(../images/jeff_jenna_tree.png);
+	background-size: 400px 400px;
 }
 
 .ch-grid {
@@ -537,6 +537,7 @@ color: #f04c74;
 	list-style: none;
 	display: block;
 	width: 100%;
+	text-align: center;
 }
 
 .ch-grid:after,
@@ -550,8 +551,8 @@ color: #f04c74;
 }
 
 .ch-grid li {
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	display: inline-block;
 }
 
@@ -571,7 +572,7 @@ color: #f04c74;
 
 .ch-info {
 	position: absolute;
-	background: rgba(239, 106, 138, 0.8);
+	background: rgba(0, 207, 239, 0.8);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
@@ -649,19 +650,19 @@ color: #f04c74;
 .timeline > li > .timeline-panel { width: 45%; float: left; border: 1px solid #d4d4d4; border-radius: 2px; padding: 20px; position: relative; -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); } 
 .timeline > li > .timeline-panel:before { position: absolute; top: 36px; right: -15px; display: inline-block; border-top: 15px solid transparent; border-left: 15px solid #ccc; border-right: 0 solid #ccc; border-bottom: 15px solid transparent; content: " "; } 
 .timeline > li > .timeline-panel:after { position: absolute; top: 37px; right: -14px; display: inline-block; border-top: 14px solid transparent; border-left: 14px solid #fff; border-right: 0 solid #fff; border-bottom: 14px solid transparent; content: " "; } 
-.timeline > li > .timeline-badge { color: #fff; width: 70px; height: 70px; line-height: 70px; font-size: 1.4em; text-align: center; position: absolute; top: 16px; left: 50%; margin-left: -35px; background-color: #ef6a8a; z-index: 2; border-top-right-radius: 50%; border-top-left-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%;	-webkit-transition: 0.4s;
+.timeline > li > .timeline-badge { color: #fff; width: 70px; height: 70px; line-height: 70px; font-size: 1.4em; text-align: center; position: absolute; top: 16px; left: 50%; margin-left: -35px; background-color: #00cfef; z-index: 2; border-top-right-radius: 50%; border-top-left-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%;	-webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
     -ms-transition: 0.4s;
     transition: 0.4s;
-	border:2px solid #ef6a8a;
+	border:2px solid #00cfef;
 	cursor:pointer; } 
-.timeline > li > .timeline-badge:hover { background:#FFF; color:#ef6a8a; } 
+.timeline > li > .timeline-badge:hover { background:#FFF; color:#00cfef; } 
 .timeline > li > .timeline-badge i{ line-height:75px; font-size:28px;}
 .timeline > li.timeline-inverted > .timeline-panel { float: right; } 
 .timeline > li.timeline-inverted > .timeline-panel:before { border-left-width: 0; border-right-width: 15px; left: -15px; right: auto; } 
 .timeline > li.timeline-inverted > .timeline-panel:after {  border-left-width: 0; border-right-width: 14px; left: -14px; right: auto; } 
-.timeline-title { margin-top: 0; color: #ef6a8a; } 
+.timeline-title { margin-top: 0; color: #00cfef; } 
 .timeline-body > p, .timeline-body > ul { margin-bottom: 0; } 
 .timeline-body > p + p { margin-top: 5px; } 
 
@@ -695,7 +696,7 @@ color: #f04c74;
 
 .family-member h4{
 	padding:10px;
-	color:#f04c74;
+	color:#01b8d4;
 	margin:0px;
 	text-align:center;
 }
@@ -707,7 +708,7 @@ color: #f04c74;
 }
 
 .man-family h3, .woman-family h3{
-	color:#ef6a8a;
+	color:#00cfef;
 	text-align:center;
 	margin-top:100px;
 	margin-bottom:30px;
@@ -737,12 +738,12 @@ color: #f04c74;
 .fun-facts span{
 	width:120px;
 	height:120px;
-	border:2px #ef6a8a solid;
+	border:2px #00cfef solid;
 	border-radius:120px; 
 	background:	#FFF;
 	line-height:120px;
 	text-align:center;
-	color:#ef6a8a;
+	color:#00cfef;
 	font-size:50px;	
 	-webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -752,7 +753,7 @@ color: #f04c74;
 }
 
 .fun-facts span:hover{
-	background:	#ef6a8a;
+	background:	#00cfef;
 	color:#FFF;
 	cursor:pointer;	
 }
@@ -771,7 +772,7 @@ color: #f04c74;
 
 .counts{
 	font-size:30px;
-	color:#ef6a8a;
+	color:#00cfef;
 }
 
 .counting h5{
@@ -796,7 +797,7 @@ color: #f04c74;
 
 .playvid a:hover{
 	text-decoration:none;
-	color:#ef6a8a;
+	color:#00cfef;
 }
 .bigmoments .owl-carousel .owl-wrapper, .owl-carousel .owl-item{
 	padding:0px;	
@@ -807,14 +808,14 @@ color: #f04c74;
 .event{
 	margin:30px;
 	width:320px;
-	background:#ef6a8a;
+	background:#00cfef;
 	color:#FFF;
 	text-align:center;
 	padding:20px;		
 }
 
 .alternative{
-	background:#f04c74!important;	
+	background:#01b8d4!important;	
 }
 
 .event i{
@@ -847,7 +848,7 @@ color: #f04c74;
 
 .favlist-name{
 	width:150px;
-	background:#ef6a8a;
+	background:#00cfef;
 	color:#FFF;
 	padding:10px;
 	display:inline-block;
@@ -869,7 +870,7 @@ color: #f04c74;
 	margin-top: 18px;	
 }
 
-.timeline-badge { color: #fff; width: 50px; height: 50px; line-height: 45px; font-size: 1.4em; text-align: center; position: absolute; top: 16px; left: 50%; margin-left: -25px; background-color: #ef6a8a; z-index: 2; border-top-right-radius: 50%; border-top-left-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; }
+.timeline-badge { color: #fff; width: 50px; height: 50px; line-height: 45px; font-size: 1.4em; text-align: center; position: absolute; top: 16px; left: 50%; margin-left: -25px; background-color: #00cfef; z-index: 2; border-top-right-radius: 50%; border-top-left-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; }
 
 /* 10.2 Common Favorites */
 
@@ -886,7 +887,7 @@ color: #f04c74;
 .common-icon{
 
 	font-size:42px!important;
-	color:#f04c74;
+	color:#01b8d4;
 }
 
 .common h4{
@@ -916,7 +917,7 @@ color: #f04c74;
 	position: absolute;
 	top: 0;
 	margin-left: 10px;
-	background: #ef6a8a;
+	background: #00cfef;
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -941,7 +942,7 @@ color: #f04c74;
 .blog h4{
 	background:#FFF;
 	margin:0px;
-	color: #ef6a8a;
+	color: #00cfef;
 	padding:20px;
 }
 
@@ -961,11 +962,11 @@ color: #f04c74;
 }
 
 .blog a{
-	color: #ef6a8a;
+	color: #00cfef;
 }
 
 .blog a:hover{
-	color: #f04c74;
+	color: #01b8d4;
 }
 
 .post{
@@ -1012,7 +1013,7 @@ color: #f04c74;
 	line-height:50px;
 	position:relative;
 	font-size:36px;
-	color: #ef6a8a;
+	color: #00cfef;
 	text-align:right;
 	margin-right:20px;
 	margin-bottom: -145px;
@@ -1034,7 +1035,7 @@ color: #f04c74;
 }
 
 .extra-content h4, .blog-extra-content h4{
-	color:#ef6a8a;	
+	color:#00cfef;	
 }
 
 /* 12. Contact Section */
@@ -1109,7 +1110,7 @@ color: #f04c74;
 .footer2{
 	padding:18px 15px 0px 15px;
 	color:#949da2;
-	border-bottom:4px #ef6a8a solid;
+	border-bottom:4px #00cfef solid;
 	text-align: center;
 }
 
@@ -1394,7 +1395,7 @@ video#bgvideo {
 	top: 0;
 	left: 0;
 	padding: 10px;
-	background: #ef6a8a;
+	background: #00cfef;
 	color: #FFF;
 }
 
@@ -1415,10 +1416,10 @@ video#bgvideo {
 
 .no-touch .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
-	-webkit-transform: scale(1.2) rotate(5deg);
-	-moz-transform: scale(1.2) rotate(5deg);
-	-ms-transform: scale(1.2) rotate(5deg);
-	transform: scale(1.2) rotate(5deg);	
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	-moz-transform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);	
 }
 
 .cs-style-3 figcaption {
@@ -1564,7 +1565,7 @@ video#bgvideo {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 3px solid #ef6a8a;
+	border: 3px solid #00cfef;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -1601,7 +1602,7 @@ video#bgvideo {
 	display: inline-block;
 	margin: 15px 0px;
 	outline: none;
-	color: #ef6a8a;
+	color: #00cfef;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1617,7 +1618,7 @@ video#bgvideo {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 3px solid #ef6a8a;
+	border: 3px solid #00cfef;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -1890,6 +1891,10 @@ video#bgvideo {
 		display:none;
 	}
 
+	.wedding .discover-btn a {
+		margin-top: 100px !important;
+	}
+
 }
 
 
@@ -1981,7 +1986,7 @@ video#bgvideo {
     height: 3px;
     position: absolute;
     width: 100px;
-	background:#ef6a8a;	
+	background:#00cfef;	
 	margin:0 auto;
 	left:0px;
 	bottom: 0px;
@@ -2005,7 +2010,7 @@ video#bgvideo {
     height: 3px;
     position: absolute;
     width: 100px;
-	background:#ef6a8a;	
+	background:#00cfef;	
 	margin:0 auto;
 	left:0px;
 	bottom: 0px;
@@ -2044,7 +2049,7 @@ video#bgvideo {
 
 
 .blog-tags li{
-	background:#ef6a8a;
+	background:#00cfef;
 	color:#fff;
 	padding:4px 8px;
 	margin:3px;
@@ -2055,7 +2060,7 @@ video#bgvideo {
 }
 
 .blog-tags li:hover{
-	background:#f04c74;	
+	background:#01b8d4;	
 }
 
 .blog-tags li a{
@@ -2099,7 +2104,7 @@ video#bgvideo {
 	position:absolute;
 	width: 60px;
 	height: 60px;
-	background: #ef6a8a;
+	background: #00cfef;
 	text-align: center;
 	line-height: 60px;
 	font-size: 25px;
@@ -2137,7 +2142,7 @@ video#bgvideo {
 	font-size: 14px;
 	text-decoration: none;
 	background-color: transparent;
-	border: 2px solid #ef6a8a;
+	border: 2px solid #00cfef;
 	margin-right: 5px;
 	-moz-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -2146,12 +2151,12 @@ video#bgvideo {
 }
 
 .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {
-	background-color: #ef6a8a;
+	background-color: #00cfef;
 	color: #fff;
 }
 
 .pagination ul > .active > a, .pagination ul > .active > span {
-	background-color: #ef6a8a;
+	background-color: #00cfef;
 	color: #fff;
 }
 
@@ -2172,7 +2177,7 @@ video#bgvideo {
 }
 
 .post-author .author-details h4{
-	color:#ef6a8a;
+	color:#00cfef;
 }
 
 .post-comments{
@@ -2291,7 +2296,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-	color:#ef6a8a;
+	color:#00cfef;
 	background-color: transparent;
 }
 
@@ -2308,7 +2313,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 	font-size: 14px;
 	text-align: center;
 	list-style: none;
-	background-color: #ef6a8a;
+	background-color: #00cfef;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	border: none;
@@ -2345,23 +2350,23 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 	line-height: 1.42857143;
 	color: #fff!important;
 	white-space: nowrap;
-	background-color: #ef6a8a!important;
+	background-color: #00cfef!important;
 }
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
 	color: #fff;
 	text-decoration: none;
-	background-color: #f04c74!important;
+	background-color: #01b8d4!important;
 }
 
 /* 19.Wedding Page */
 
 .selected a{
-	color:#ef6a8a!important;
+	color:#00cfef!important;
 }
 
 .wedding{
-	background:url(../images/jeff-jenna-main.JPG) no-repeat 0px -130px;
+	background:url(../images/jeff_jenna_main.jpg) no-repeat top center;
 	background-size:cover;
 	text-align:center;
 	padding:100px 0px 0px 0px;
@@ -2369,7 +2374,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 }
 
 .wedding h2{
-	font-size: 6em;
+	font-size: 3em;
 	font-family: 'Great Vibes', cursive;
 	position: relative;
 	z-index: 2;	
@@ -2377,6 +2382,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 
 .wedding .time{
 	color:#FFF;
+}
+
+.wedding .discover-btn a {
+	margin-top: 200px;		
 }
 
 .wedding h4, .wedding div{
@@ -2397,12 +2406,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 .bestfriends h4{
 	background:#FFF;
 	margin:0px;
-	color: #ef6a8a;
+	color: #00cfef;
 	padding:20px 20px 0px;
 }
 
 .bestfriends h5{
 	color: #687177;
+	padding: 0px 10px 5px 10px;
+	line-height: 18px;
 }
 
 
@@ -2420,7 +2431,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 }
 
 .venue h4{
-	color:#ef6a8a;
+	color:#00cfef;
 	text-transform:uppercase;
 }
 
@@ -2433,12 +2444,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 }
 
 .day-details h4 {
-	color:#ef6a8a;
+	color:#00cfef;
 	text-transform:uppercase;
 }
 
 .day-details:hover {
-	background:#ef6a8a;
+	background:#00cfef;
 }
 
 .day-details:hover h4, .day-details:hover p, .day-details:hover a{
@@ -2450,7 +2461,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 	margin:70px 15px 40px;
 }
 #map h3{
-	color:#ef6a8a;	
+	color:#00cfef;	
+}
+
+#map .pink h3 {
+	color: #f04c74;
 }
 
 #owl-gifts .owl-pagination{
