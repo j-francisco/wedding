@@ -472,6 +472,10 @@ color: #01b8d4;
 	bottom: 0px;
 }
 
+.underline-pink:after{
+	background: #f04c74;
+}
+
 .underline2{
 	font-family: 'Great Vibes', cursive;
 	color:#FFF;
@@ -572,7 +576,7 @@ color: #01b8d4;
 
 .ch-info {
 	position: absolute;
-	background: rgba(0, 207, 239, 0.8);
+	background: rgba(240,76,116,0.8);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;
@@ -596,9 +600,9 @@ color: #01b8d4;
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 22px;
+	font-size: 18px;
 	margin: 0 30px;
-	padding: 45px 0 0 0;
+	padding: 150px 0 0 0;
 	height: 140px;
 	text-shadow: 
 		0 0 1px #fff, 
@@ -610,6 +614,7 @@ color: #01b8d4;
 	padding: 10px 5px;
 	font-style: italic;
 	margin: 0 30px;
+	margin-top: 60px;
 	font-size: 12px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 	opacity: 0;
@@ -1789,6 +1794,11 @@ video#bgvideo {
 		background-size: 230px 230px;	
 	}
 	
+	.ch-info h3 {
+		font-size: 16px;
+		margin: 0;
+		padding-top: 106px;
+	}
 	.ch-info p{
 		display:none;	
 	}
@@ -2415,6 +2425,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 	color: #687177;
 	padding: 0px 10px 5px 10px;
 	line-height: 18px;
+}
+
+.bestfriends.girl h4 a {
+	color: #f04c74;
 }
 
 
