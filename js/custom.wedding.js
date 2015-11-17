@@ -69,61 +69,6 @@ $( document ).ready(function() {
 	/*------------------------------ Tooltips ----------------------*/
 	
 	$('.tooltips').tooltip();
-	
-	/*------------------------------ Voice Control -----------------*/
-	if (annyang) {
-	  var commands = {
-		'home': function() {
-			$('html, body').animate({
-				scrollTop: $("#page-top").offset().top
-			}, 2000);
-		},
-		
-		'about': function() {
-			$('html, body').animate({
-				scrollTop: $("#about").offset().top
-			}, 2000);
-		},	
-		
-		'family': function() {
-			$('html, body').animate({
-				scrollTop: $("#family").offset().top
-			}, 2000);
-		},
-
-		'moments': function() {
-			$('html, body').animate({
-				scrollTop: $("#moments").offset().top
-			}, 2000);
-		},
-		
-		'favourites': function() {
-			$('html, body').animate({
-				scrollTop: $("#favourites").offset().top
-			}, 2000);
-		},
-		
-		'blog': function() {
-			$('html, body').animate({
-				scrollTop: $("#blog").offset().top
-			}, 2000);
-		},
-		
-		'contact': function() {
-			$('html, body').animate({
-				scrollTop: $("#contactus").offset().top
-			}, 2000);
-		},
-		
-		'Purchase now': function() {
-			window.location = "http://www.themeforest.com"
-		}											
-			
-	  };
-	  
-	  annyang.addCommands(commands);
-	  annyang.start();
-	}
 
 	/*------------------------------ Bootstrap Carousel ----------------------*/
 
