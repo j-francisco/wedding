@@ -96,6 +96,9 @@ h2 span{
 p{
 	color:#687177;	
 }
+.p-color {
+	color:#687177;
+}
 .padtop100{
 	padding-top:100px;	
 }
@@ -2469,7 +2472,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 	background:#00cfef;
 }
 
-.day-details:hover h4, .day-details:hover p, .day-details:hover a{
+.day-details:hover h4, .day-details:hover p, .day-details:hover a, .day-details:hover .p-color{
 	color:#fff;
 }
 
