@@ -1981,6 +1981,14 @@ video#bgvideo {
 	}
 }
 
+@media screen and (min-width: 992px) {
+	.day-details {
+		width: 60%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+}
+
 /* 16. Blog Pages */
 
 .sidebar{
@@ -2460,7 +2468,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 	padding:17px 20px;
-	margin-bottom:21px;
+	margin-bottom: 20px;
 }
 
 .day-details h4 {
@@ -2474,6 +2482,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu  {
 
 .day-details:hover h4, .day-details:hover p, .day-details:hover a, .day-details:hover .p-color{
 	color:#fff;
+}
+
+.day-details li {
+	margin-bottom: 5px;
 }
 
 #map{
