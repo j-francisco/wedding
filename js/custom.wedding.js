@@ -215,7 +215,7 @@ $( document ).ready(function() {
 /*------------------------------ Count Down ----------------------*/
 
 setInterval(function() {
-    var timespan = countdown(new Date("2016", "4", "21", "15", "0", "0"), new Date());
+    var timespan = countdown(new Date("2016", "4", "21", "16", "30", "0"), new Date());
     var div = document.getElementById('time');
     div.innerHTML = "</div>" + "<div><span>Months</span>" + timespan.months + "</div>" + "<div><span>Days</span>" + timespan.days + "</div>" + "<div><span>Hours</span>" + timespan.hours + "</div>" + "<div><span>Minutes</span>" + timespan.minutes + "</div>" + "<div><span>Seconds</span>" + timespan.seconds + "</div>"
 }, 1000);
